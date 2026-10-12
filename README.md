@@ -6,13 +6,13 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![TaxHacker](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![TaxHacker](images/preview.png)](https://github.com/Swift-Tech-Co/TaxHacker)
 
 ## ✨ Features
 
 ### `1` Analyze photos and invoices with AI
 
-[![Currency Conversion](public/landing/ai-scanner-big.webp)](https://www.swifttechco.com)
+[![Currency Conversion](public/landing/ai-scanner-big.webp)](https://github.com/Swift-Tech-Co/TaxHacker)
 
 Snap a photo of any receipt or upload an invoice PDF, and TaxHacker will automatically recognize, extract, categorize, and store all the information in a structured database.
 
@@ -27,7 +27,7 @@ TaxHacker works with a wide variety of documents, including store receipts, rest
 
 ### `2` Multi-currency support with automatic conversion (even crypto!)
 
-[![Currency Conversion](public/landing/multi-currency.webp)](https://www.swifttechco.com)
+[![Currency Conversion](public/landing/multi-currency.webp)](https://github.com/Swift-Tech-Co/TaxHacker)
 
 TaxHacker automatically detects currencies in your documents and converts them to your base currency using historical exchange rates.
 
@@ -40,11 +40,11 @@ TaxHacker automatically detects currencies in your documents and converts them t
 
 It's compatible with your local LLM OpenAI-compatible API endpoint. Just make sure that your local model is good in OCR tasks, results are not guaranteed :)
 
-[![Local LLMs](public/landing/local-llms.webp)](https://www.swifttechco.com)
+[![Local LLMs](public/landing/local-llms.webp)](https://github.com/Swift-Tech-Co/TaxHacker)
 
 ### `4` Organize your transactions using fully customizable categories, projects and fields
 
-[![Transactions Table](public/landing/transactions-big.webp)](https://www.swifttechco.com)
+[![Transactions Table](public/landing/transactions-big.webp)](https://github.com/Swift-Tech-Co/TaxHacker)
 
 Adapt TaxHacker to your unique needs with unlimited customization options. Create custom fields, projects, and categories that better suit your specific needs, idustry standards or country.
 
@@ -57,7 +57,7 @@ Adapt TaxHacker to your unique needs with unlimited customization options. Creat
 
 ### `5` Customize any LLM prompt. Even system ones
 
-[![Custom Categories](public/landing/custom-llm.webp)](https://www.swifttechco.com)
+[![Custom Categories](public/landing/custom-llm.webp)](https://github.com/Swift-Tech-Co/TaxHacker)
 
 Take full control of how TaxHacker's AI processes your documents. Write custom AI prompts for fields, categories, and projects, or modify the built-in ones to match your specific needs.
 
@@ -71,7 +71,7 @@ TaxHacker is 100% adaptable and tunable to your unique requirements  whether you
 
 ### `6` Flexible data filtering and export
 
-[![Data Export](public/landing/export.webp)](https://www.swifttechco.com)
+[![Data Export](public/landing/export.webp)](https://github.com/Swift-Tech-Co/TaxHacker)
 
 Once your documents are processed, easily view, filter, and export your complete transaction history exactly how you need it.
 
@@ -82,7 +82,7 @@ Once your documents are processed, easily view, filter, and export your complete
 
 ### `7` Self-hosted mode for data privacy
 
-[![Self-hosting](docs/screenshots/exported_archive.png)](https://www.swifttechco.com)
+[![Self-hosting](docs/screenshots/exported_archive.png)](https://github.com/Swift-Tech-Co/TaxHacker)
 
 Keep complete control over your financial data with local storage and self-hosting options. TaxHacker respects your privacy and gives you full ownership of your information.
 
@@ -97,7 +97,7 @@ Keep complete control over your financial data with local storage and self-hosti
 TaxHacker can be easily self-hosted on your own infrastructure for complete control over your data and application environment. We provide a [Docker image](./Dockerfile) and [Docker Compose](./docker-compose.yml) setup that makes deployment simple:
 
 ```bash
-curl -O https://www.swifttechco.com
+curl -O https://github.com/Swift-Tech-Co/TaxHacker
 
 docker compose up
 ```
@@ -140,14 +140,13 @@ Configure TaxHacker for your specific needs with these environment variables:
 |----------|----------|-------------|---------|
 | `UPLOAD_PATH` | Yes | Local directory for file uploads and storage | `./data/uploads` |
 | `PORT` | No | Port to run the application on | `7331` (default) |
-| `BASE_URL` | No | Base URL for the application | `https://www.swifttechco.com |
+| `BASE_URL` | No | Base URL for the application | `https://github.com/Swift-Tech-Co/TaxHacker |
 | `SELF_HOSTED_MODE` | No | Set to "true" for self-hosting: enables auto-login, custom API keys, and additional features | `true` |
 | `DISABLE_SIGNUP` | No | Disable new user registration on your instance | `false` |
 | `BETTER_AUTH_SECRET` | Recommended | Secret key for authentication and email credential encryption (minimum 16 characters). In self-hosted Docker, TaxHacker auto-generates and persists one in `./data/.better_auth_secret` if unset. | `your-secure-random-key` |
 | `POSTGRES_PASSWORD` | Yes (`docker-compose.build.yml`) | Password for the bundled Postgres when building locally  used in both `POSTGRES_PASSWORD` and `DATABASE_URL` | output of `openssl rand -hex 24` |
 | `POSTGRES_USER` | No (`docker-compose.build.yml`) | Database user (defaults to `postgres`) | `postgres` |
 | `POSTGRES_DB` | No (`docker-compose.build.yml`) | Database name (defaults to `taxhacker`) | `taxhacker` |
-
 
 > 💡 **Need internet access with authentication?** See [docs/self-hosted-public-access.md](docs/self-hosted-public-access.md) for a workaround (yes, it's cursed).
 
@@ -164,7 +163,7 @@ Set up your local development environment:
 
 ```bash
 # Clone the repository
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/TaxHacker
 cd TaxHacker
 
 # Install dependencies
@@ -184,7 +183,7 @@ npx prisma generate && npx prisma migrate dev
 npm run dev
 ```
 
-Visit `https://www.swifttechco.com to see your local TaxHacker instance in action.
+Visit `https://github.com/Swift-Tech-Co/TaxHacker to see your local TaxHacker instance in action.
 
 For a production build, instead of `npm run dev` use the following commands:
 
@@ -199,7 +198,6 @@ npm run start
 ## 🤝 Contributing
 
 No AI-slop PRs. Please open a new Issue and discuss the details with maintainers before sending new changes.
-
 
 ## 📄 License
 
@@ -219,13 +217,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/TaxHacker
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [vas3k/TaxHacker](https://github.com/vas3k/TaxHacker) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
