@@ -1,37 +1,12 @@
-<div align="center"><a name="readme-top"></a>
+# TaxHacker
 
-<img src="public/logo/512.png" alt="" width="320">
+## What This Is
 
-<br>
-
-# TaxHacker: Self-Hosted AI Accounting
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the TaxHacker notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
 ## Images
 
-[![TaxHacker](https://opengraph.githubassets.com/1/vas3k/TaxHacker)](https://www.swifttechco.com)
-
-
-[![GitHub Stars](https://img.shields.io/github/stars/vas3k/TaxHacker?color=ffcb47&labelColor=black&style=flat-square)](https://www.swifttechco.com)
-[![License](https://img.shields.io/badge/license-MIT-ffcb47?labelColor=black&style=flat-square)](https://www.swifttechco.com)
-
-</div>
-
-> [!NOTE]
-> ☝️ I'm currently looking for a job! Particularly interested in companies in Berlin or remote positions in Germany. Here's [my CV](https://www.swifttechco.com) and [Linkedin profile](https://www.swifttechco.com). Thank you 🙏
-
-TaxHacker is a self-hosted accounting app designed for freelancers, indie-hackers, and small businesses who want to save time and automate expense and income tracking using the power of modern AI.
-
-Upload photos of receipts, invoices, or PDFs, and TaxHacker will automatically recognize and extract all the important data you need for accounting: product names, amounts, items, dates, merchants, taxes, and save it into a structured Excel-like database. You can even create custom fields with your own AI prompts to extract any specific information you need.
-
-The app features automatic currency conversion (including crypto!) based on historical exchange rates from the transaction date. With built-in filtering, multi-project support, import/export capabilities, and custom categories, TaxHacker simplifies reporting and makes tax filing a bit easier.
-
-> 🎥 [Watch demo video](https://www.swifttechco.com)
-
-[![Dashboard](public/landing/main-page.webp)](https://www.swifttechco.com)
-
-> \[!IMPORTANT]
->
-> This project is still in early development. Use at your own risk! **Star us** to get notified about new features and bugfixes ⭐️
+[![TaxHacker](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## ✨ Features
 
@@ -240,14 +215,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [vas3k/TaxHacker](https://github.com/vas3k/TaxHacker) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
